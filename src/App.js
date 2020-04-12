@@ -11,7 +11,7 @@ import CheckoutPage from './pages/checkout/checkout.component';
 import Header from './components/header/header.component';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
-import CurrentUserContext from './contexts/current-user';
+import CurrentUserContext from './contexts/current-user/current-user.context';
 
 class App extends React.Component {
   constructor() {
